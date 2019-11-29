@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "369376444626",
+    "firebase_url": "https://pediatrica-706fe.firebaseio.com",
+    "project_id": "pediatrica-706fe",
+    "storage_bucket": "pediatrica-706fe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:369376444626:android:d9978b7ba8f63c37ca2d0b",
+        "android_client_info": {
+          "package_name": "com.example.triviasalud"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "369376444626-ai1j8rr8u63dvsid438alsee0u8qsab0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.triviasalud",
+            "certificate_hash": "8199194ba4b1d622529603949cb6fccecb49ab55"
+          }
+        },
+        {
+          "client_id": "369376444626-h5dftohvvt3u097jcv290hmeosrc45h4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkwSc6vNMasV1MOdhagizc2t-swSVhzxw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "369376444626-h5dftohvvt3u097jcv290hmeosrc45h4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

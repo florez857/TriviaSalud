@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:id="@+id/roottrivia"
+    tools:context=".MainActivity">
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/materialCardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="0.33"
+        app:cardBackgroundColor="@color/colorPrimary"
+        app:cardElevation="15dp"
+        app:cardMaxElevation="16dp">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_horizontal|center_vertical"
+            android:layout_margin="20dp"
+            android:elegantTextHeight="true"
+            android:fontFamily="@font/montserrat"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:minEms="5"
+            android:minLines="5"
+            android:padding="10dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:text="¿Por qué lo usamos? Es un hecho establecido desde  que hace que parezca un inglés legible. Muchos paquetes de edición de escritorio y editores de páginas web ahora usan Lorem Ipsum como su texto modelo predeterminado, y una búsqueda de 'lorem ipsum' descubrirá muchos sitios web aún en su infancia. Varias versiones han evolucionado a lo largo de los años, a veces por accidente, a veces a propósito (humor inyectado y similares).  "
+            android:textAlignment="center"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:textSize="20sp" />
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/materialCardView32"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_weight="0.66"
+        app:cardElevation="15dp"
+        app:cardMaxElevation="15dp">
+
+
+        <LinearLayout
+            android:id="@+id/constaint"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:weightSum="3.5"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat"
+                android:minLines="2"
+                android:layout_weight="0.5"
+                android:paddingLeft="10dp"
+                android:paddingTop="20dp"
+                android:paddingRight="0dp"
+                android:paddingBottom="20dp"
+                android:text="Seleccione la opción que considere correcta :"
+
+                android:textAlignment="center"
+                android:textSize="16sp"
+                app:autoSizeMinTextSize="24sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/materialButton1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="16dp"
+                android:background="@color/colorAccent"
+                android:elegantTextHeight="true"
+                android:elevation="8dp"
+                android:fontFamily="@font/montserrat"
+                android:minLines="3"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:text="Es un hecho establecido desde hace mucho tiempo que un lector, en lugar de usar"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="14sp"
+                app:backgroundTint="@color/colorPrimary"
+                app:cornerRadius="5dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/materialButton2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="24dp"
+                android:background="?attr/colorSecondaryVariant"
+                android:elegantTextHeight="true"
+                android:elevation="8dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/montserrat"
+                android:minLines="3"
+                android:padding="10dp"
+                android:text="Es un hecho establecido desde hace mucho tiempo que un lector  Ipsum es que tiene una distribución "
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="14sp"
+                app:backgroundTint="@color/colorPrimary"
+                app:cornerRadius="5dp"
+                app:layout_constraintBottom_toTopOf="@+id/materialButton3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/materialButton1" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/materialButton3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="24dp"
+                android:background="?attr/colorPrimaryVariant"
+                android:backgroundTint="@color/colorPrimary"
+                android:elegantTextHeight="true"
+                android:elevation="8dp"
+                android:fontFamily="@font/montserrat"
+                android:gravity="center|center_horizontal|center_vertical"
+                android:minLines="3"
+                android:padding="10dp"
+                android:text="Es un hecho establecido desde hace mucho tiempo que un lector se distraerá con el contenido "
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="14sp"
+                android:layout_weight="1"
+                app:backgroundTint="@color/colorPrimary"
+                app:cornerRadius="5dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        </LinearLayout>
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+</LinearLayout>
+
+</ScrollView>
